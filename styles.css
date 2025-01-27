@@ -3,8 +3,21 @@
 #header {
     font-family: Verdana; 
     text-align: center;
+    color: hsl(360, 100%, 60%);
+}
+
+ul {
+    /* used to eliminate the bullet points in the unorganized list */
+    list-style-type: none;
+
+    text-align: center;
 }
 
 button {
     font-family: Verdana;
+    color: white;
+    box-sizing: border-box;
+    background-color: hsl(360, 100%, 75%);
+    border: none;
 }
+
