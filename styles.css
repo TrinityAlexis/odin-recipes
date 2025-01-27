@@ -1,7 +1,10 @@
 /* Home Page */
 
+body {
+    font-family: Verdana;
+}
+
 #header {
-    font-family: Verdana; 
     text-align: center;
     color: hsl(360, 100%, 60%);
 }
@@ -13,11 +16,17 @@ ul {
     text-align: center;
 }
 
+    /* color & aesthetic */
 button {
-    font-family: Verdana;
     color: white;
-    box-sizing: border-box;
-    background-color: hsl(360, 100%, 75%);
+    background-color: hsl(360, 100%, 68%);
     border: none;
 }
+    /* sizing, spacing, placement */
+.recipe {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 8px;
+}
+
 
