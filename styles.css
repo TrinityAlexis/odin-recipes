@@ -1,9 +1,8 @@
-/* Home Page */
-
 body {
     font-family: Verdana;
 }
 
+.title,
 #header {
     text-align: center;
     color: hsl(360, 100%, 60%);
@@ -29,8 +28,6 @@ button {
     margin: 10px;
     padding: 8px;
 }
-
-/* individual reciple pages */
 
 h3 {
     text-decoration: underline;
