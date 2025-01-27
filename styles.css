@@ -20,12 +20,19 @@ body {
 button {
     color: white;
     background-color: hsl(360, 100%, 68%);
-    border: none;
+    border: dotted;
     font-weight: 700;
     box-sizing: border-box;
     margin: 10px;
     padding: 8px;
 }
 
+/* individual reciple pages */
 
-
+h3 {
+    text-decoration: underline;
+    font-family: Arial;
+    color: hsl(360, 100%, 68%);
+    border: 5px;
+    border-color: black;
+}
