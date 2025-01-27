@@ -9,11 +9,13 @@ body {
     color: hsl(360, 100%, 60%);
 }
 
-#list {
+.names { 
+    text-align: center;
+}
+
+.unorganized_list {
     /* used to eliminate the bullet points in the unorganized list */
     list-style-type: none;
-
-    text-align: center;
 }
 
     /* color & aesthetic */
